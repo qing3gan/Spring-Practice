@@ -24,6 +24,9 @@
         <module>component-swagger</module>
         <module>component-utils</module>
         <module>component-zuul-label</module>
+        <module>component-sequence-api</module>
+        <module>component-admin-ui-zipkin</module>
+        <module>component-admin-ui-route</module>
     </modules>
 
 
