@@ -8,8 +8,20 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <!--spring cloud 系统服务根项目，所有服务项目的根依赖。-->
     <artifactId>commonservice</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>commonservice-admin</module>
+        <module>commonservice-apigateway</module>
+        <module>commonservice-cache</module>
+        <module>commonservice-config</module>
+        <module>commonservice-eureka</module>
+        <module>commonservice-mq</module>
+        <module>commonservice-sso</module>
+        <module>commonservice-turbine</module>
+        <module>commonservice-zipkin</module>
+    </modules>
 
 
 </project>

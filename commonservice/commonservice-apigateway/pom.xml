@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>commonservice</artifactId>
+        <groupId>com.agony.practice</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <!--API网关通用服务项目，所有的请求首先会经过这个网关。-->
+    <!--由于所有的请求会先经过这个 api 网关，所以可以在这里做权限控制，安全，负载均衡，请求分发，监控等等。-->
+    <artifactId>commonservice-apigateway</artifactId>
+
+
+</project>
