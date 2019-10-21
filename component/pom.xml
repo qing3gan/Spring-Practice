@@ -10,6 +10,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>component</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>component-base</module>
+        <module>component-binder-rocket</module>
+        <module>component-call-control</module>
+        <module>component-mongodb</module>
+        <module>component-notify</module>
+        <module>component-oss</module>
+        <module>component-redis</module>
+        <module>component-rocketmq</module>
+        <module>component-sso-api</module>
+        <module>component-swagger</module>
+        <module>component-utils</module>
+        <module>component-zuul-label</module>
+    </modules>
 
 
 </project>
