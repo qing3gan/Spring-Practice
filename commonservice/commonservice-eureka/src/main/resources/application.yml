@@ -29,12 +29,12 @@ eureka:
 
   # 指定环境
   environment: dev
-  #指定数据中心
+  # 指定数据中心
   datacenter: ankle
   # 关闭自我保护模式
   server:
     enable-self-preservation: false
-  #设置清理无效节点的时间间隔，默认60000，即是60s
+  # 设置清理无效节点的时间间隔，默认60000，即是60s
     eviction-interval-timer-in-ms: 60000
 
 # 服务认证
