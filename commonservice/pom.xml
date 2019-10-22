@@ -5,7 +5,7 @@
     <parent>
         <artifactId>spring-practice</artifactId>
         <groupId>com.agony.practice</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <!--spring cloud 系统服务根项目，所有服务项目的根依赖。-->
@@ -24,10 +24,6 @@
     </modules>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-
         <!-- 框架通用包版本设置 -->
         <validator.version>5.3.4.Final</validator.version>
         <shiro.version>1.2.3</shiro.version>
@@ -64,7 +60,7 @@
         <fastjson.version>1.2.35</fastjson.version>
 
         <!-- component -->
-        <com.agony.practice.componet.version>1.0-SNAPSHOT</com.agony.practice.componet.version>
+        <com.agony.practice.componet.version>0.1.0-SNAPSHOT</com.agony.practice.componet.version>
     </properties>
 
     <dependencyManagement>

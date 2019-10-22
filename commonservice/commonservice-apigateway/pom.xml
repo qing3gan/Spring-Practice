@@ -5,7 +5,7 @@
     <parent>
         <artifactId>commonservice</artifactId>
         <groupId>com.agony.practice</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <!--API网关通用服务项目，所有的请求首先会经过这个网关。-->

@@ -5,7 +5,7 @@
     <parent>
         <artifactId>commonservice</artifactId>
         <groupId>com.agony.practice</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <!--提供独立的微服务服务发现、注册管理平台。云端服务发现，一个基于 REST 的服务，用于定位服务，以实现云端中间层服务发现和故障转移。-->

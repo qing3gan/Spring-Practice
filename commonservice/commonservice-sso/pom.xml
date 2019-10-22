@@ -5,7 +5,7 @@
     <parent>
         <artifactId>commonservice</artifactId>
         <groupId>com.agony.practice</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <!--提供统一用户登录、认证单点登录平台。使用第三方OAuth2.0的解决方案，通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机提供统一认证登录服务。-->

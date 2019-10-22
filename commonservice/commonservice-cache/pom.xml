@@ -5,7 +5,7 @@
     <parent>
         <artifactId>commonservice</artifactId>
         <groupId>com.agony.practice</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <!--针对于分布式缓存提供服务化项目，封装分布式缓存redis等。-->
