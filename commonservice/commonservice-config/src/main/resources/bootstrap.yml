@@ -1,0 +1,35 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: commonservice-config
+  profiles:
+    active: discovery,native
+  cloud:
+    config:
+      server:
+        native.searchLocations: d:/ankle-config
+security:
+  basic:
+    enabled: true
+  user:
+    name: ankle
+    password: 123456
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://ankle:123456@localhost:8761/eureka/
+      ankleZone: http://ankle:123456@localhost:8761/eureka/
+    registry-fetch-interval-seconds: 300
+    availability-zones:
+      ankle: ankleZone
+  instance:
+    prefer-ip-address: true
+    metadataMap:
+      version: 1.0
+      variant: A
+      user: ${security.user.name}
+      password: ${security.user.password}
+management:
+  security:
+    enabled: false  
