@@ -56,7 +56,7 @@
         <!-- aliyun -->
         <aliyun-sdk-oss.version>2.6.0</aliyun-sdk-oss.version>
         <aliyun-sdk-openservices-ons.version>1.2.7.Final</aliyun-sdk-openservices-ons.version>
-        <spring-boot-admin.version>1.5.1</spring-boot-admin.version>
+        <spring-boot-admin.version>3.1.2</spring-boot-admin.version>
         <fastjson.version>1.2.35</fastjson.version>
 
         <!-- component -->
